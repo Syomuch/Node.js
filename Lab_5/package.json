@@ -1,0 +1,23 @@
+{
+  "name": "lab_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "npx nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@types/pg": "^8.10.1",
+    "typescript": "^5.0.4"
+  }
+}
